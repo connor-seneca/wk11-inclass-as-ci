@@ -18,8 +18,8 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v4
         with:
-        build: npm run build
-        start: npm start
+          build: npm run build
+          start: npm start
 
 
       # - name: Run ESlint
